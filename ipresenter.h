@@ -8,8 +8,6 @@
 class IPresenter
 {
 public:
-
-
 	inline virtual ~IPresenter() {}
 
 	virtual void present(Control *control) = 0;
