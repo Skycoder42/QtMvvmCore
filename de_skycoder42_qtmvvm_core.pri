@@ -11,7 +11,7 @@ SOURCES += \
 	$$PWD/messageresult.cpp \
 	$$PWD/coremessage.cpp
 	
-QPM_TRANSLATIONS += $$PWD/qtmvvm_core_de.ts \
+TRANSLATIONS += $$PWD/qtmvvm_core_de.ts \
 	$$PWD/qtmvvm_core_template.ts
 
 INCLUDEPATH += $$PWD

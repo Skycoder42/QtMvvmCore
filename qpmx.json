@@ -1,0 +1,28 @@
+{
+    "dependencies": [
+    ],
+    "license": {
+        "file": "LICENSE",
+        "name": "BSD_3_CLAUSE"
+    },
+    "prcFile": "",
+    "priFile": "de_skycoder42_qtmvvm_core.pri",
+    "priIncludes": [
+    ],
+    "publishers": {
+        "qpm": {
+            "author": {
+                "email": "skycoder42.de@gmx.de",
+                "name": "Skycoder"
+            },
+            "description": "The core part of QtMvvm",
+            "name": "de.skycoder42.qtmvvm.core",
+            "repository": {
+                "type": "GITHUB",
+                "url": "https://github.com/Skycoder42/QtMvvmCore.git"
+            },
+            "webpage": "https://github.com/Skycoder42/QtMvvm"
+        }
+    },
+    "source": false
+}
