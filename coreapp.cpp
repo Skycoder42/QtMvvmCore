@@ -103,11 +103,11 @@ void CoreApp::setupParser(QCommandLineParser &parser, bool &allowInvalid) const
 
 bool CoreApp::autoShowHelpOrVersion(const QCommandLineParser &parser)
 {
-	if(parser.isSet("help")) {
+	if(parser.isSet(QStringLiteral("help"))) {
 		if(!CoreMessage::information(tr("Usage"), parser.helpText()))
 			std::cout << parser.helpText().toStdString() << std::endl;
 		return true;
-	} else if(parser.isSet("version")) {
+	} else if(parser.isSet(QStringLiteral("version"))) {
 		auto text = QGuiApplication::applicationDisplayName() +
 					QLatin1Char(' ') +
 					QGuiApplication::applicationVersion();

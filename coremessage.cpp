@@ -155,7 +155,7 @@ bool CoreMessage::about(const QString &content, bool includeCompany, const QUrl 
 	}
 	if(includeQtVersion) {
 		text.append(CoreApp::tr("<br/><br/>Built with <a href=\"https://www.qt.io\">Qt %2</a>")
-					.arg(QT_VERSION_STR));
+					.arg(QStringLiteral(QT_VERSION_STR)));
 	}
 
 	auto result = information(title, text);

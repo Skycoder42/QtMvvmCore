@@ -45,10 +45,10 @@ bool critical(const QString &title,
 			  std::function<void()> onResult,
 			  const QString &okText = {});
 
-bool about(const QString &content,
-		   bool includeCompany = true,
-		   const QUrl &companyUrl = QUrl(),
-		   bool includeQtVersion = true);
+QT_DEPRECATED bool about(const QString &content,
+						 bool includeCompany = true,
+						 const QUrl &companyUrl = QUrl(),
+						 bool includeQtVersion = true);
 
 MessageResult *getInput(const QString &title,
 						const QString &text,
